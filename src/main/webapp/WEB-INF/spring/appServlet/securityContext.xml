@@ -11,7 +11,6 @@
     	<!--  세션이 풀릴 경우 가게되는 url-->
 		<session-management invalid-session-url="/main.do">
 			<concurrency-control max-sessions="1"
-								 expired-url="/login/loginForm.do" 	
 								 error-if-maximum-exceeded="true" />					 
 		</session-management>  
     	<!-- iframe 안되는걸 방지 -->
